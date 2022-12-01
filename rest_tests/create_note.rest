@@ -1,0 +1,42 @@
+
+POST http://localhost:3001/api/notes/
+content-type: application/json
+
+{   
+    "label": "Arash the sun god 2",
+    "content": "This is the content of arash the sun god"
+}
+      
+
+
+
+# let notes = [
+#     {   
+#         id: 1,
+#         label: 'A tale of iron and blood',
+#         content: 'This is the content of a tale of iron and blood',
+#         created: '2022-01-10T17:30:31.098Z',
+#         modified: '2022-01-10T17:30:31.098Z',
+#     },
+#     {   
+#         id: 2,
+#         label: 'Sword and fire',
+#         content: 'This is the content of sword and fire',
+#         created: '2022-02-10T17:30:31.098Z',
+#         modified: '2022-02-10T17:30:31.098Z',
+#     },
+#     {   
+#         id: 3,
+#         label: 'A tale of wind and fire',
+#         content: 'This is the content of a tale of wind and fire',
+#         created: '2022-03-10T17:30:31.098Z',
+#         modified: '2022-03-10T17:30:31.098Z',
+#     },
+#     {   
+#         id: 4,
+#         label: 'Arash the sun god',
+#         content: 'This is the content arash the sun god',
+#         created: '2022-04-10T17:30:31.098Z',
+#         modified: '2022-04-10T17:30:31.098Z',
+#     },
+# ]
