@@ -1,0 +1,16 @@
+# POST http://localhost:3001/api/login/
+# content-type: application/json
+
+# {   
+#     "email": "userMahadi@mail.com",
+#     "password": "password"
+# }
+   
+POST http://localhost:3001/api/login/
+content-type: application/json
+
+{
+    "email": "userSheriff@mail.com",
+    "password": "password"
+}
+

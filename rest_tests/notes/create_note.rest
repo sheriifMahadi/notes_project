@@ -1,12 +1,35 @@
 
+# POST http://localhost:3001/api/notes/
+# content-type: application/json
+# Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJNYWhhZGlAbWFpbC5jb20iLCJpZCI6IjYzOGRhZTRkMjNlMmRkZDdhODMwNDE5MSIsImlhdCI6MTY3MDIyOTY3OCwiZXhwIjoxNjcwMjMwNTc4fQ.U8aqioIu_zB-QGk_NjwD1Zt9DKkO95Ux_CB8FxfthdY
+
+# {   
+#     "label": "A tale of blood and iron",
+#     "content": "This is the content of a tale of blood and iron"
+# }
+      
+
 POST http://localhost:3001/api/notes/
 content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJTaGVyaWZmQG1haWwuY29tIiwiaWQiOiI2MzhkYWU2MTIzZTJkZGQ3YTgzMDQxOTQiLCJpYXQiOjE2NzAzOTY3NTEsImV4cCI6MTY3MDM5NzY1MX0.fa7NeNKZCTTstOKPrkbj63OcRqYe36ikCohlgoGuiOQ
 
 {   
-    "label": "Arash the sun god 2",
-    "content": "This is the content of arash the sun god"
+    "label": "Arash the divine 2",
+    "content": "This is the content of Arash the divine"
 }
       
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
