@@ -1,2 +1,2 @@
-GET http://localhost:3001/api/notes/
+DELETE http://localhost:3001/api/groups/63c81f1784a97b00e0ac2238
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJTaGVyaWZmQG1haWwuY29tIiwiaWQiOiI2MzhkYWU2MTIzZTJkZGQ3YTgzMDQxOTQiLCJpYXQiOjE2NzQwNTAzNzQsImV4cCI6MTY3NDEzNjc3NH0.k8RTqjX6cU9O79mKDak7u8XXq4-fjp3uDs-gPIfuku0

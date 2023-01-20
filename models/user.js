@@ -19,7 +19,6 @@ const userSchema = mongoose.Schema({
   passwordHash: {
     type: String,
     required: true,
-    minlength: 8
   },
   notes: [
     {
@@ -27,6 +26,12 @@ const userSchema = mongoose.Schema({
       ref: 'Note'
     }
   ],
+  groups: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Group'
+    }
+  ]
 })
 
 userSchema.set('toJSON', {

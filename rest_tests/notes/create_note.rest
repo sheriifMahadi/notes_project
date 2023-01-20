@@ -11,13 +11,13 @@
 
 POST http://localhost:3001/api/notes/
 content-type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJTaGVyaWZmQG1haWwuY29tIiwiaWQiOiI2MzhkYWU2MTIzZTJkZGQ3YTgzMDQxOTQiLCJpYXQiOjE2NzAzOTY3NTEsImV4cCI6MTY3MDM5NzY1MX0.fa7NeNKZCTTstOKPrkbj63OcRqYe36ikCohlgoGuiOQ
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJTaGVyaWZmQG1haWwuY29tIiwiaWQiOiI2MzhkYWU2MTIzZTJkZGQ3YTgzMDQxOTQiLCJpYXQiOjE2NzQwNTAzNzQsImV4cCI6MTY3NDEzNjc3NH0.k8RTqjX6cU9O79mKDak7u8XXq4-fjp3uDs-gPIfuku0
 
 {   
-    "label": "Arash the divine 2",
-    "content": "This is the content of Arash the divine"
-}
-      
+    "label": "test2",
+    "content": "test with group 2",
+    "groupname": "testgroup"
+} 
 
 
 

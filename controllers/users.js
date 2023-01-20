@@ -11,6 +11,11 @@ usersRouter.post('/', async (request, response) => {
       error: 'This email has been used already.'
     })
   }
+  if (password.length < 8) {
+    return response.status(400).json({
+      error: 'Password too short. Minimum length is 8.'
+    })
+  }
 
   const saltRounds = 10
   const passwordHash = await bcrypt.hash(password, saltRounds)

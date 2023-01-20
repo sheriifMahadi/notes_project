@@ -1,0 +1,23 @@
+# POST http://localhost:3001/api/groups
+# content-type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJTaGVyaWZmQG1haWwuY29tIiwiaWQiOiI2MzhkYWU2MTIzZTJkZGQ3YTgzMDQxOTQiLCJpYXQiOjE2NzQwNTAzNzQsImV4cCI6MTY3NDEzNjc3NH0.k8RTqjX6cU9O79mKDak7u8XXq4-fjp3uDs-gPIfuku0
+
+# {   
+#     "groupName": "testgroup"
+# }
+
+# GET http://localhost:3001/api/groups/63bbfec298f5e40315f6acbf
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJTaGVyaWZmQG1haWwuY29tIiwiaWQiOiI2MzhkYWU2MTIzZTJkZGQ3YTgzMDQxOTQiLCJpYXQiOjE2NzQwNTAzNzQsImV4cCI6MTY3NDEzNjc3NH0.k8RTqjX6cU9O79mKDak7u8XXq4-fjp3uDs-gPIfuku0
+
+# POST http://localhost:3001/api/getmultiple
+# content-type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJTaGVyaWZmQG1haWwuY29tIiwiaWQiOiI2MzhkYWU2MTIzZTJkZGQ3YTgzMDQxOTQiLCJpYXQiOjE2NzQwNTAzNzQsImV4cCI6MTY3NDEzNjc3NH0.k8RTqjX6cU9O79mKDak7u8XXq4-fjp3uDs-gPIfuku0
+
+# {   
+#     "ids": [
+#             "63c800702e61dd453a6b2178",
+#             "63c800ed2e61dd453a6b218a",
+#             "63c800ef2e61dd453a6b2190",
+#             "63c800f72e61dd453a6b2196"
+#             ]
+# }

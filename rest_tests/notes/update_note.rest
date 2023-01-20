@@ -1,10 +1,10 @@
-PUT http://localhost:3001/api/notes/638daf2e23e2ddd7a83041a2
+PUT http://localhost:3001/api/notes/
 content-type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJTaGVyaWZmQG1haWwuY29tIiwiaWQiOiI2MzhkYWU2MTIzZTJkZGQ3YTgzMDQxOTQiLCJpYXQiOjE2NzAzOTU0MjAsImV4cCI6MTY3MDM5NjMyMH0.uog18G_UbhX-iC052oLDDaz8eP-A_tEo88uCb4mfimc
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJTaGVyaWZmQG1haWwuY29tIiwiaWQiOiI2MzhkYWU2MTIzZTJkZGQ3YTgzMDQxOTQiLCJpYXQiOjE2NzQwNTAzNzQsImV4cCI6MTY3NDEzNjc3NH0.k8RTqjX6cU9O79mKDak7u8XXq4-fjp3uDs-gPIfuku0
 
 
 {   
-    "label": "A tale of ice and fire",
-    "content": "This is the content of tale of ice and fire"
+    "label": "test",
+    "content": "test with group 2",
+    "groupname": "testgroup"
 }
